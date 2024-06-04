@@ -1,3 +1,5 @@
+# Moving our data from our CRM webscraper into our existing data storage files
+
 import shutil
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
