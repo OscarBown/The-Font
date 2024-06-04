@@ -1,3 +1,5 @@
+#scraping tool to get locations of all UK competitors
+
 import requests
 from bs4 import BeautifulSoup
 import csv
