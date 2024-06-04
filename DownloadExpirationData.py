@@ -1,10 +1,11 @@
+# this code automates the tedious data download process from our CRM system to our Business Dashboard. Ideally we move to API though.
+
 from selenium import webdriver
 import time
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 # open chrome
-
 driver = webdriver.Chrome('./chromedriver')
 driver.get('https://clients.mindbodyonline.com/ASP/su1.asp?studioid=425764&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=8%2f18%2f2021&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1')
 
